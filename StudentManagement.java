@@ -78,7 +78,7 @@ public class StudentManagement {
 			}
 			if(flag == -1) System.out.println("Không có sinh viên này");
 		}
-		private static void studentbyGroup() {
+		/*private static void studentbyGroup() {
 			boolean Checking[] = new boolean[newClass.length];
 			for(int i = 0 ; i < newClass.length ; i++) {
 				if(!Checking[i]) {
@@ -93,7 +93,7 @@ public class StudentManagement {
 					Checking[i] = true;
 				}
 			}
-		}
+		}*/
 		public static void main (String[] args) {
 			/*Student A = new Student("Dang Vu Nhat Quang","17020975","Japan","vnu.edu.vn");
 			Student B = new Student();
